@@ -21,7 +21,7 @@ program
         const encoding = opts.encoding;
         const FullPath = path.resolve(Filepath);    //it returns the full path of the file
 
-       
+   
         const data = fs.readFileSync(FullPath, encoding);   // fs library to read the file
         
         let inword = false;
